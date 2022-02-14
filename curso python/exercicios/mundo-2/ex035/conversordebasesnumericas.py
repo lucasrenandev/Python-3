@@ -1,8 +1,9 @@
-num = int(input("Digite um número inteiro: "))
-print("Escolha umas bases para conversão:")
-print("[ 1 ] converter para BINÁRIO")
-print("[ 2 ] converter para OCTAL")
-print("[ 3 ] converter para HEXADECIMAL")
+num = int(input('Digite um número inteiro: ')) 
+print('''Escolha uma das bases para conversão:
+[ 1 ] converter para BINÁRIO
+[ 2 ] converter para OCTAL
+[ 3 ] conveter para HEXADECIMAL''')
+
 opcao = int(input("Sua opção: "))
 if opcao == 1:
     print("{} convertido em BINÁRIO é igual a {}".format(num, bin(num) [2:]))
