@@ -1,5 +1,5 @@
 n = int(input('Digite um número para ver sua tabuada: '))
-print("--------------------")
+print("-" * 20)
 print('{} x {} = {}'.format(n, 1, n*1))
 print('{} x {} = {}'.format(n, 2, n*2))
 print('{} x {} = {}'.format(n, 3, n*3))
@@ -12,6 +12,6 @@ print('{} x {} = {}'.format(n, 9, n*9))
 print('{} x {} = {}'.format(n, 10, n*10))
 print('{} x {} = {}'.format(n, 11, n*11))
 print('{} x {} = {}'.format(n, 12, n*12))
-print("-------------------")
+print("-" * 20)
 
 
