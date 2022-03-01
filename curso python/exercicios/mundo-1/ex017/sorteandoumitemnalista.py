@@ -8,7 +8,7 @@ escolhido = random.choice(lista)
 print("O aluno escolhido foi {}.".format(escolhido))'''
 
 from random import choice               #random(aleatório)
-n1 = str(input("Primeiro aluno: "))     #choice(escolha um item da lista)
+n1 = str(input("Primeiro aluno: "))     #choice(escolha)
 n2 = str(input("Segundo aluno: "))
 n3 = str(input("Terceiro aluno: "))
 n4 = str(input("Quarto aluno: "))
