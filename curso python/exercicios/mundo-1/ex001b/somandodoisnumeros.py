@@ -1,6 +1,6 @@
-print('-=-' * 6)
+print('-=-' * 7)
 print('VAMOS SOMAR!')
-print('-=-' * 6)
+print('-=-' * 7)
 
 n1 = int(input('Digite um número: '))
 n2 = int(input('Digite outro: '))
