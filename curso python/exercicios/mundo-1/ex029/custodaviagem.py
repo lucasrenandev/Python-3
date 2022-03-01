@@ -1,4 +1,4 @@
-distancia = float(input("Qual a distancia da viagem? "))
+distancia = float(input("Qual a distância da viagem? "))
 print("Você está prestes a começar uma viagem de {}Km.".format(distancia))
 if distancia <= 200:
     preco = distancia * 0.50
