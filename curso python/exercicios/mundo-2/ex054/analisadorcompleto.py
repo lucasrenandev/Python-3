@@ -7,7 +7,7 @@ for p in range (1, 5):
     print('------ {}ª PESSOA ------'.format(p))
     nome = str(input('Nome: ')).strip()
     idade = int(input('Idade: '))
-    sexo = str(input('Sexo: [M/F] ')).strip()
+    sexo = str(input('Sexo [M/F]: ')).strip()
     somaidade += idade
     if p == 1 and sexo in 'Mm':
         maioridadedehomem = idade
