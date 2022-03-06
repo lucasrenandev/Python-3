@@ -11,7 +11,7 @@ while opção != 5:
     [ 3 ] Maior
     [ 4 ] Novos números
     [ 5 ] Sair do programa''')
-    opção = int(input('Qual a sua opção? '))
+    opção = int(input('>>>>> Qual a sua opção? '))
     if opção == 1:
         soma = n1 + n2
         print('A soma entre {} e {} é igual a {}!'.format(n1, n2, soma))
